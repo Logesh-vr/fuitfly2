@@ -23,6 +23,16 @@ Native Windows · Local browser interface**
 
 ## Inside the lab
 
+![NeuroMechFly body rendered in the project's MuJoCo closed-loop experiment](docs/images/fly-simulation.png)
+
+*The simulated fly body, captured from a saved closed-loop run.*
+
+![Measured population firing rates and selected-neuron spike raster during left olfactory stimulation](docs/images/brain-activity.png)
+
+*Brain-only stimulation experiment: population firing rates above, selected-neuron
+spikes below. These are saved simulation outputs, not illustrations or screenshots
+of the newer two-brain interface.*
+
 | Experience | What you control or observe |
 | --- | --- |
 | **Interactive physics** | Watch the walking body, orbit the camera, and reposition the odor source. |
