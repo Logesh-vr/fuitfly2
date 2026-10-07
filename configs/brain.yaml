@@ -1,0 +1,14 @@
+seed: 7
+control_dt_s: 0.01
+duration_s: 0.30
+brain:
+  groups_file: configs/neurons.yaml
+  neural_dt_s: 0.0001
+  codegen: numpy
+  raster_neurons_per_group: 24
+stimulation:
+  onset_s: 0.05
+  offset_s: 0.25
+  rates_hz:
+    olfactory_left: 150.0
+    olfactory_right: 0.0

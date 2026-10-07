@@ -1,0 +1,8 @@
+# Live mode only. Independent second body AND full connectome brain.
+enabled: true
+forward_threshold: 0.15
+turn_threshold: 0.12
+walking_drive: 0.8
+turn_drive: 0.35
+# Virtual keyboard adds sensory input; inner brain alone determines motor output.
+bridge_stimulation_hz: 100.0

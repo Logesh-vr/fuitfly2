@@ -1,0 +1,39 @@
+.venv/
+.python/
+.cache/
+__pycache__/
+.pytest_cache/
+outputs/
+data/
+vendor/
+*.egg-info/
+
+# Python build products and tooling
+*.py[cod]
+.brian/
+.ruff_cache/
+.mypy_cache/
+.coverage*
+htmlcov/
+build/
+dist/
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.aws/
+.codex/
+.agents/
+.idea/
+.vscode/
+
+# Runtime and download leftovers
+*.log
+*.tmp
+*.part
+Thumbs.db
+Desktop.ini
+.DS_Store

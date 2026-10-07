@@ -1,0 +1,8 @@
+# All gains are designed, not inferred biological motor parameters.
+left_group: descending_left
+right_group: descending_right
+smoothing_tau_s: 0.05
+stand_threshold_hz: 0.05
+speed_gain_per_hz: 0.20
+turn_gain_per_hz: 0.08
+max_drive: 1.2

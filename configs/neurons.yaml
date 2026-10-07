@@ -1,0 +1,24 @@
+# FlyWire materialization 783; strict annotation match, no arbitrary ID substitution.
+release: 783
+completeness: data/flywire783/Completeness_783.csv
+connectivity: data/flywire783/Connectivity_783.parquet
+annotations: data/flywire783/classification.csv.gz
+model_source: vendor/shiu/model.py
+model_commit: 91bdd1e7dcf193f3e7ca5a8933497fcef63b7960
+inputs:
+  olfactory_left:
+    class: olfactory
+    side: left
+  olfactory_right:
+    class: olfactory
+    side: right
+# To stimulate other modalities, add groups here using class: visual,
+# mechanosensory, or gustatory and configure the encoder channel.
+# You can instead use ids: ["exact FlyWire root id", ...].
+outputs:
+  descending_left:
+    super_class: descending
+    side: left
+  descending_right:
+    super_class: descending
+    side: right

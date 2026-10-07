@@ -1,0 +1,35 @@
+seed: 7
+control_dt_s: 0.01
+duration_s: 1.0
+brain:
+  groups_file: configs/neurons.yaml
+  neural_dt_s: 0.0001
+  codegen: numpy
+  raster_neurons_per_group: 24
+body:
+  physics_dt_s: 0.0001
+  odor_source_mm: [16.0, 5.0, 0.5]
+  odor_sigma_mm: 12.0
+  vision: false
+  render: true
+  playback_speed: 0.2
+  fps: 30
+  camera_resolution: [480, 640]
+encoder:
+  olfactory_left:
+    channel: odor_left
+    baseline_hz: 0.0
+    gain_hz: 300.0
+    max_hz: 300.0
+  olfactory_right:
+    channel: odor_right
+    baseline_hz: 0.0
+    gain_hz: 300.0
+    max_hz: 300.0
+decoder_file: configs/decoder.yaml
+scripted:
+  left: 1.0
+  right: 1.0
+task:
+  approach_improvement_mm: 1.0
+  arrival_radius_mm: 2.0

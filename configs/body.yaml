@@ -1,0 +1,14 @@
+seed: 7
+control_dt_s: 0.01
+duration_s: 1.0
+body:
+  physics_dt_s: 0.0001
+  odor_source_mm: [8.0, 3.0, 0.5]
+  odor_sigma_mm: 5.0
+  render: true
+  playback_speed: 0.2
+  fps: 30
+  camera_resolution: [480, 640]
+scripted:
+  left: 1.0
+  right: 1.0
